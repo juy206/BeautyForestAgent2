@@ -9,22 +9,24 @@ using System.Windows.Forms;
 
 namespace BeautyForestAgent
 {
-    public partial class FormAdd : Form
+    public partial class FormAbout : Form
     {
-        public string Title
-        {
-            set { this.Text = value; }
-        }
-
-        public FormAdd()
+        public FormAbout()
         {
             InitializeComponent();
         }
 
-        private void FormAdd_Load(object sender, EventArgs e)
+        private void FormAbout_Load(object sender, EventArgs e)
         {
 
         }
+        public string Title{
+            set { this.Text = value; }
+        }
+
+
+            
+
 
 }
 }
